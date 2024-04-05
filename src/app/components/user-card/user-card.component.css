@@ -1,0 +1,9 @@
+.ok{
+    background-image: url('../../../assets/background.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.username,.email{
+    text-align: center;
+    justify-content: center;
+}

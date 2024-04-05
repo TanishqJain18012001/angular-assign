@@ -1,0 +1,21 @@
+<section
+  routerLink="/userProfile/{{ user.id }}"
+  class="ok m-8 min-h-80 w-64  rounded-2xl px-8 py-6 shadow-lg cursor-pointer"
+  style="font-family: Montserrat"
+>
+  <div class="mt-6 w-fit mx-auto">
+    <img
+      src="../../../assets/Front.png"
+      class="rounded-full w-28"
+      alt="profile picture"
+      srcset=""
+    />
+  </div>
+
+  <div class="mt-8">
+    <h2 class="text-black  text-xl font-semibold tracking-wide username">
+       {{ user.name }}
+    </h2>
+  </div>
+  <p class="text-blue-500 font-semibold mt-2.5 email ">{{ user.email }}</p>
+</section>
